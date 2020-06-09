@@ -49,7 +49,9 @@ h3 {
 .profile {
   background-color: #84a9ac;
 }
-
+.profile:hover{
+  background-color: #f3e1e1;
+}
 .web {
   text-decoration: overline underline;
 }
@@ -136,7 +138,9 @@ hr {
   padding-top: 20px;
   margin-bottom: 10px;
 }
-
+.profile1:hover{
+  background-color: #888888
+}
 .btn {
   font-family: arial;
   font-weight: bold;
@@ -169,4 +173,35 @@ hr {
 
 .p{
   line-height: 2;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1150px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fce8d5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 12px;
+  z-index: 3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h2:hover{
+  color: #7c3c21;
+}
+h3:hover{
+  color:#654062;
+}
+
+.skills:hover{
+  background-color: #ffdcb4;
 }
